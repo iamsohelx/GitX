@@ -13,9 +13,13 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "gitx.helloWorld",
-      "title": "Hello World"
-    }]
+      "command": "gitx.Sohel",
+      "title": "Sohel Gitx"
+    },
+  {
+    "command": "gitx.Error",
+    "title": "Gitx Time"
+  }]
   },
   "scripts": {
     "lint": "eslint .",
